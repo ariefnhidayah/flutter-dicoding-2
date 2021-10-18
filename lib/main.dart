@@ -57,6 +57,7 @@ class MyApp extends StatelessWidget {
         ),
         home: HomeMoviePage(),
         onGenerateRoute: (RouteSettings settings) {
+          print(settings.name);
           switch (settings.name) {
             case '/home':
               return MaterialPageRoute(builder: (_) => HomeMoviePage());

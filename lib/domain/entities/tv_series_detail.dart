@@ -11,9 +11,9 @@ class TVSeriesDetail extends Equatable {
   final String name;
   final String originalName;
   final String overview;
-  final String popularity;
+  final double popularity;
   final String posterPath;
-  final List<int> episodeRunTime;
+  final List<dynamic> episodeRunTime;
   final String type;
   final String status;
   final String tagline;

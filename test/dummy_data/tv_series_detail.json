@@ -1,0 +1,118 @@
+{
+  "backdrop_path": "/path.jpg",
+  "created_by": [
+    {
+      "id": 1294471,
+      "credit_id": "1",
+      "name": "Hwang Dong-hyuk",
+      "gender": 2,
+      "profile_path": "/path.jpg"
+    }
+  ],
+  "episode_run_time": [
+    54
+  ],
+  "first_air_date": "2021-09-17",
+  "genres": [
+    {
+      "id": 10759,
+      "name": "Action & Adventure"
+    },
+    {
+      "id": 9648,
+      "name": "Mystery"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    }
+  ],
+  "homepage": "https://www.netflix.com/title/81040344",
+  "id": 93405,
+  "in_production": false,
+  "languages": [
+    "ko",
+    "ur",
+    "en"
+  ],
+  "last_air_date": "2021-09-17",
+  "last_episode_to_air": {
+    "air_date": "2021-09-17",
+    "episode_number": 9,
+    "id": 3222798,
+    "name": "One Lucky Day",
+    "overview": "overview",
+    "production_code": "",
+    "season_number": 1,
+    "still_path": "/path.jpg",
+    "vote_average": 7.3,
+    "vote_count": 12
+  },
+  "name": "Squid Game",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "name": "Netflix",
+      "id": 213,
+      "logo_path": "/path.png",
+      "origin_country": ""
+    }
+	],
+  "number_of_episodes": 9,
+  "number_of_seasons": 1,
+  "origin_country": [
+    "KR"
+  ],
+  "original_language": "ko",
+  "original_name": "Squid Game",
+  "overview": "overviews",
+  "popularity": 7231.019,
+  "poster_path": "/path.jpg",
+  "production_companies": [
+    {
+      "id": 112647,
+      "logo_path": null,
+      "name": "Siren Pictures",
+      "origin_country": "KR"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "KR",
+      "name": "South Korea"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2021-09-17",
+      "episode_count": 9,
+      "id": 131977,
+      "name": "Season 1",
+      "overview": "overview",
+      "poster_path": "/path.jpg",
+      "season_number": 1
+    }
+  ],
+  "spoken_languages": [
+    {
+      "english_name": "Korean",
+        "iso_639_1": "ko",
+        "name": "Korea"
+      },
+      {
+        "english_name": "Urdu",
+        "iso_639_1": "ur",
+        "name": "urdu"
+      },
+      {
+        "english_name": "English",
+        "iso_639_1": "en",
+        "name": "English"
+      }
+  ],
+  "status": "Ended",
+  "tagline": "tagline",
+  "type": "Scripted",
+  "vote_average": 7.9,
+  "vote_count": 7633
+}

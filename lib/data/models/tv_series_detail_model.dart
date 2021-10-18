@@ -13,9 +13,9 @@ class TVSeriesDetailModel extends Equatable {
   final String name;
   final String originalName;
   final String overview;
-  final String popularity;
+  final double popularity;
   final String posterPath;
-  final List<int> episodeRunTime;
+  final List<dynamic> episodeRunTime;
   final String type;
   final String status;
   final String tagline;
@@ -48,7 +48,7 @@ class TVSeriesDetailModel extends Equatable {
     genres: List<GenreModel>.from(json["genres"].map((x) => GenreModel.fromJson(x))),
     id: json["id"],
     inProduction: json["in_production"],
-    languages: json["languages"],
+    languages: List<String>.from(json["languages"]).toList(),
     name: json["name"],
     originalName: json["original_name"],
     popularity: json["popularity"],

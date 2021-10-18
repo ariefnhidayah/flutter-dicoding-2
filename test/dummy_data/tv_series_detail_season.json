@@ -1,0 +1,18 @@
+{
+    "_id": "5d753a082ea6b90010bff496",
+    "air_date": "2021-09-17",
+    "episodes": [
+        {
+            "air_date": "2021-09-17",
+            "episode_number": 1,
+            "id": 1922715,
+            "name": "Red Light, Green Light",
+            "overview": "overview",
+            "production_code": "",
+            "season_number": 1,
+            "still_path": "/path.jpg",
+            "vote_average": 8.5,
+            "vote_count": 35
+        }
+    ]
+}
