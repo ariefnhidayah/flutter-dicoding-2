@@ -1,6 +1,6 @@
 # This is a generated file; do not edit or check into version control.
-path_provider=/Applications/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-2.0.2/
-path_provider_linux=/Applications/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-2.0.0/
-path_provider_macos=/Applications/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-2.0.0/
-path_provider_windows=/Applications/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-2.0.1/
-sqflite=/Applications/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.0.0+3/
+path_provider=/Applications/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-2.0.5/
+path_provider_linux=/Applications/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-2.1.0/
+path_provider_macos=/Applications/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-2.0.2/
+path_provider_windows=/Applications/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-2.0.3/
+sqflite=/Applications/Flutter/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.0.0+4/
