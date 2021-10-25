@@ -5,7 +5,6 @@ import 'package:ditonton/data/models/tv_series_detail_model.dart';
 import 'package:ditonton/data/models/tv_series_episode_model.dart';
 import 'package:ditonton/data/models/tv_series_model.dart';
 import 'package:ditonton/data/models/tv_series_response.dart';
-import 'package:ditonton/data/models/tv_series_season_model.dart';
 import 'package:http/http.dart' as http;
 
 abstract class TVSeriesRemoteDataSource {
