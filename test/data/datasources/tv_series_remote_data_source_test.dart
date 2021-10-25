@@ -26,7 +26,7 @@ void main() {
   group('Popular TV Series', () {
     final tvSeriesList = TVSeriesResponse.fromJson(json.decode(readJson('dummy_data/tv_series_popular.json'))).tvSeries;
 
-    test('should be return list tv series when status code 200 ', () async {
+    test('should be return list tv series when status code 200', () async {
       // arrange
       when(mockHttpClient.get(Uri.parse('$BASE_URL/tv/popular?$API_KEY'))).thenAnswer((_) async => http.Response(readJson('dummy_data/tv_series_popular.json'), 200));
       // act
