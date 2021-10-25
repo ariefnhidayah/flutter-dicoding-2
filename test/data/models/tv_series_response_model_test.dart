@@ -18,7 +18,7 @@ void main() {
     ],
     popularity: 7231.019,
     id: 93405,
-    overview: "overview",
+    overview: "Overview",
     posterPath: "/path.jpg",
     voteAverage: 7.9,
     voteCount: 7623
@@ -29,7 +29,7 @@ void main() {
   group('fromJson', () {
     test('should return a valid model from JSON', () async {
       // arrange
-      final Map<String, dynamic> jsonMap = json.decode(readJson('dummy_data/popular_tv_series.json'));
+      final Map<String, dynamic> jsonMap = json.decode(readJson('dummy_data/tv_series_popular.json'));
       // act
       final results = TVSeriesResponse.fromJson(jsonMap);
       // assert
@@ -46,7 +46,7 @@ void main() {
       // assert
       final expectedJsonMap = {
         "results": [{
-            "backdrop_path": "/n00M5kO1C9xBkusfe56Zvrihw6c.jpg",
+            "backdrop_path": "/path.jpg",
             "genre_ids": [
                 10759,
                 9648,
@@ -54,10 +54,10 @@ void main() {
             ],
             "id": 93405,
             "name": "Squid Game",
-            "original_name": "오징어 게임",
-            "overview": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games—with high stakes. But, a tempting prize awaits the victor.",
+            "original_name": "Squid Game",
+            "overview": "Overview",
             "popularity": 7231.019,
-            "poster_path": "/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg",
+            "poster_path": "/path.jpg",
             "vote_average": 7.9,
             "vote_count": 7623
         }]
