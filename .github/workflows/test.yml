@@ -1,0 +1,25 @@
+name: App Testing
+
+on:
+  push:
+    branches: [ testing ]
+  pull_request:
+    branches: [ testing ]
+
+jobs:
+  build:
+    name: Build APK and Create release
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        lfs: true
+        token: ${{ secrets.ACCESS_TOKEN }}
+    - uses: actions/setup-java@v1
+      with:
+        java-version: '12.x'
+    - uses: subosito/flutter-action@v1
+      with:
+        flutter-version: '2.5.1'
+    - run: flutter pub get
+    - run: flutter test
